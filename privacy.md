@@ -44,6 +44,17 @@ You can share a list, a project, or a space with other people. When you do:
 
 If you allow notifications, the server keeps your device's notification address only to send you notifications about tasks assigned to you, comments, and people joining something you shared. Notifications are delivered by Apple's push notification service, which receives the notification's text and your device's notification address. The server deletes the address when you sign out or turn notifications off, and stops using it after 30 days without the app checking in.
 
+## Connected agents
+
+You can connect an agent, such as Claude, to your Daytray account. This is your choice, and it is off until you do it.
+
+- You pick what each agent may do: add tasks, read tasks, complete tasks, edit tasks, or delete tasks. You can change this or remove the connection at any time in Settings, Account, Connected agents.
+- An agent acts as you. What it adds or changes looks like your own work, and it can reach only the lists and tasks you can reach.
+- To connect, you approve a short code inside Daytray while signed in. Nothing connects without that step.
+- Daytray keeps a short activity log for each connection: which action ran, which task it touched, and when. It is kept for 30 days. It does not include the text of your tasks, and it does not include IP addresses.
+- When an agent reads your tasks, the text of those tasks goes to that agent, and from there it is handled under that agent's own terms and privacy policy.
+- Removing a connection ends its access right away. Deleting your account removes every connection and its activity log.
+
 ## Where it is stored
 
 Sync is kept with Supabase, a hosted database service, on servers in the United States. Each person can see only their own data and what other people have shared with them. The app sends data over an encrypted connection.

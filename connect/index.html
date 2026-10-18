@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https:; base-uri 'none'; form-action 'none'">
+<title>Connect to Daytray</title>
+<link rel="stylesheet" href="connect.css">
+</head>
+<body>
+<h1 id="title">Connecting to Daytray</h1>
+
+<div id="loading" class="status" aria-live="polite">One moment.</div>
+
+<div id="problem" hidden>
+  <p id="problem-text"></p>
+</div>
+
+<div id="ready" hidden>
+  <div id="code" class="code" aria-label="Your Daytray code"></div>
+  <p><a id="open" class="button" href="#">Open in Daytray</a></p>
+  <p>Or open Daytray, then Settings, Account, Connected agents, Enter a code.</p>
+  <div class="warn">
+    <p id="goes-back"></p>
+    <p id="loopback" hidden>This connects a program on this computer, such as Claude Code.</p>
+    <p class="note last">Only approve if you just started this yourself. The code works for 5 minutes.</p>
+  </div>
+  <div id="qr" class="qr" aria-hidden="true"></div>
+  <p class="note">On another device, point its camera at this picture to open Daytray there.</p>
+  <p id="waiting" class="note" aria-live="polite">Waiting for you to approve in Daytray. This page goes back by itself.</p>
+</div>
+
+<script src="config.js"></script>
+<script src="qr.js"></script>
+<script src="connect.js"></script>
+</body>
+</html>
