@@ -1,10 +1,19 @@
 ---
-title: Support
+layout: null
 permalink: /support
 ---
-
-# Support
-
-To ask a question or report a problem, open Daytray and go to Settings, then About, then Send feedback. Your message goes straight to the person who makes the app.
-
-To delete your account and everything synced to it, open Settings, then Account, then Delete my account.
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support: Daytray is now TidyOut</title>
+<link rel="canonical" href="https://tidyout.app/#support">
+<meta http-equiv="refresh" content="0; url=https://tidyout.app/#support">
+<style>body{font:17px/1.5 -apple-system,system-ui,sans-serif;max-width:36rem;margin:3rem auto;padding:0 16px;color:#2B2420;background:#FAF7F4}a{color:#A9522F}</style>
+</head>
+<body>
+<h1>Daytray is now TidyOut</h1>
+<p>Same app, new name. This page has moved to <a href="https://tidyout.app/#support">https://tidyout.app/#support</a>.</p>
+</body>
+</html>

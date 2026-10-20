@@ -1,78 +1,19 @@
 ---
-title: Privacy policy
+layout: null
 permalink: /privacy
 ---
-
-# Privacy policy
-
-Daytray is made by Deep Current, LLC. This page says what the app keeps, where it goes, and how to remove it.
-
-## What stays on your device
-
-- Your tasks, notes, checklists, lists, projects, and spaces.
-- Your settings, such as how many slots a day has and how the app looks.
-- Reminders and the morning nudge. These are scheduled on the device with the system's notifications. They are never sent anywhere.
-
-Importing reads the file, text or reminders you choose, on your device. Daytray keeps only the tasks you import.
-
-If you use the app without an account, this is all there is. Nothing leaves your device.
-
-## Sharing a link to the app
-
-When you share a link to the app, your phone opens that page once to read its title. Nothing is sent to our server.
-
-## What is sent when you sign in
-
-Signing in with Apple turns on sync, so your tasks reach your other devices. When you are signed in, the app sends:
-
-- Your tasks, lists, projects, and spaces.
-- Your settings (After finishing, All view, appearance, and the morning nudge). Which way you chose to start the app on a device is not sent.
-- Your Apple account id and your email address, as Apple gives them to the app. If you chose to hide your email, Apple gives the app a private relay address instead. The server also keeps a sign-in token from Apple, used only to cancel your Apple sign-in for this app when you delete your account.
-- Your display name, the name other people see when you share something with them.
-
-## Sharing
-
-You can share a list, a project, or a space with other people. When you do:
-
-- The people you share with see your display name, the shared list, project, or space, and the tasks in it.
-- Comments you write on a shared task are seen by everyone who has that list, project, or space.
-- Your email address is never shown to them.
-- Leaving a shared list, or being removed from it, stops your access to it.
-- If you delete your account, the shared lists, projects, and spaces you own are deleted for everyone who shares them, unless you hand them over to someone else first.
-
-## Notifications
-
-If you allow notifications, the server keeps your device's notification address only to send you notifications about tasks assigned to you, comments, and people joining something you shared. Notifications are delivered by Apple's push notification service, which receives the notification's text and your device's notification address. The server deletes the address when you sign out or turn notifications off, and stops using it after 30 days without the app checking in.
-
-## Connected agents
-
-You can connect an agent, such as Claude, to your Daytray account. This is your choice, and it is off until you do it.
-
-- A connection may add, read, complete, edit and delete your tasks. You can remove it at any time in Settings, Account, Connected agents.
-- An agent acts as you. What it adds or changes looks like your own work, and it can reach only the lists and tasks you can reach.
-- To connect, you approve a short code inside Daytray while signed in. Nothing connects without that step.
-- Daytray keeps a short activity log for each connection: which action ran, which task it touched, and when. It is kept for 30 days. It does not include the text of your tasks, and it does not include IP addresses.
-- When an agent reads your tasks, the text of those tasks goes to that agent, and from there it is handled under that agent's own terms and privacy policy.
-- Removing a connection ends its access right away. Deleting your account removes every connection and its activity log.
-
-## Where it is stored
-
-Sync is kept with Supabase, a hosted database service, on servers in the United States. Each person can see only their own data and what other people have shared with them. The app sends data over an encrypted connection.
-
-Feedback you send from Settings, under About, is stored with the app version and the kind of device (iPhone or iPad), and with your account id if you are signed in. It does not include your email address. It is read only by the app's maker.
-
-## What we do not do
-
-- We do not sell your data.
-- We do not share your data with anyone, other than Supabase, which stores it for the app, Apple, which delivers notifications, and the people you choose to share with. We do not use it for advertising.
-- The app has no ads, no analytics, and no tracking tools.
-
-## Deleting everything
-
-In Settings, open Account and choose Delete my account. This removes your sign-in and everything synced to it from the server. Things you added to lists that other people own stay in those lists, no longer tied to you. The tasks already on your device stay there until you delete the app.
-
-If you only sign out, your tasks stay on the device and on the server, and syncing stops.
-
-## Changes
-
-If this policy changes, the new version is in the app, in Settings under About.
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy: Daytray is now TidyOut</title>
+<link rel="canonical" href="https://tidyout.app/privacy/">
+<meta http-equiv="refresh" content="0; url=https://tidyout.app/privacy/">
+<style>body{font:17px/1.5 -apple-system,system-ui,sans-serif;max-width:36rem;margin:3rem auto;padding:0 16px;color:#2B2420;background:#FAF7F4}a{color:#A9522F}</style>
+</head>
+<body>
+<h1>Daytray is now TidyOut</h1>
+<p>Same app, new name. This page has moved to <a href="https://tidyout.app/privacy/">https://tidyout.app/privacy/</a>.</p>
+</body>
+</html>
